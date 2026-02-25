@@ -19,7 +19,7 @@ h2 {
   color: #C73F39;
   margin-top: 0;
   margin-bottom: 20px;
-  font-family: Playfair Display, serif;
+  font-family: Frank Ruhl, serif;
   font-size: 32px;
   font-weight: 500;
   line-height: 26px;
@@ -77,6 +77,18 @@ blockquote {
   line-height: 22px;
 }
 
+.pill-button {
+  display: inline-block;
+  padding: 7px 13px;
+  background: #C73F39;
+  color: #fff6e2;
+  text-decoration: none;
+  border-radius: 50px;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  margin-top: 7px;
+}
+
 .page-link {
   color: #5d5d5d;
   letter-spacing: 1px;
@@ -88,7 +100,7 @@ blockquote {
   margin-left: 0;
   margin-right: auto;
   padding: 0 20px;
-  font-family: Playfair Display, serif;
+  font-family: Frank Ruhl, serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 18px;
@@ -108,7 +120,7 @@ blockquote {
   cursor: pointer;
   align-items: center;
   padding: 0 20px;
-  font-family: Playfair Display, serif;
+  font-family: Frank Ruhl, serif;
 }
 
 .navigation-menu {
@@ -125,7 +137,7 @@ blockquote {
   text-transform: ;
   cursor: pointer;
   margin: 0 auto;
-  font-family: Playfair Display, serif;
+  font-family: Frank Ruhl, serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 500;
@@ -193,7 +205,7 @@ blockquote {
   color: #C73F39;
   letter-spacing: 0;
   margin-bottom: 5px;
-  font-family: Playfair Display, serif;
+  font-family: Frank Ruhl, serif;
   font-size: 22px;
   font-weight: 500;
 }
@@ -217,7 +229,7 @@ blockquote {
   text-transform: ;
   margin-top: 20px;
   margin-bottom: 30px;
-  font-family: Playfair Display, serif;
+  font-family: Frank Ruhl, serif;
   font-size: 16px;
 }
 
@@ -225,7 +237,7 @@ blockquote {
   color: #C73F39;
   text-align: left;
   text-transform: ;
-  font-family: Playfair Display, serif;
+  font-family: Frank Ruhl, serif;
   font-size: 22px;
   font-weight: 500;
   line-height: 24px;
@@ -296,9 +308,9 @@ blockquote {
   flex-flow: column;
   justify-content: center;
   align-items: center;
-  margin: 40px auto 60px;
+  margin: 30px auto 30px;
   padding-left: 0;
-  font-family: Playfair Display, serif;
+  font-family: Frank Ruhl, serif;
   text-transform: ;
   display: flex;
   position: static;
@@ -309,8 +321,8 @@ blockquote {
   color: rgba(0, 0, 0, 0);
   text-transform: ;
   background-color: rgba(0, 0, 0, 0);
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 35px;
+  padding-bottom: 10px;
   display: block;
 }
 
@@ -441,6 +453,18 @@ blockquote {
   position: relative;
 }
 
+.paragraph-4 {
+  color: #5d5d5d;
+  text-align: center;
+  text-transform: ;
+  padding-left: 200px;
+  padding-right: 200px;
+  font-family: Jost, sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  position: relative;
+}
+
 .blurb {
   text-align: center;
   text-transform: ;
@@ -493,7 +517,7 @@ blockquote {
   color: #5d5d5d;
   margin-top: 20px;
   margin-bottom: 5px;
-  font-family: Playfair Display, serif;
+  font-family: Frank Ruhl, serif;
   font-size: 14px;
 }
 
@@ -709,7 +733,7 @@ blockquote {
     text-transform: ;
     margin-top: 20px;
     margin-bottom: 40px;
-    font-family: Playfair Display, serif;
+    font-family: Frank Ruhl, serif;
     font-size: 16px;
   }
 
