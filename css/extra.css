@@ -1812,3 +1812,50 @@ textarea.w-select {
 .wf-layout-layout {
   display: grid;
 }
+
+/* Mobile - Force 3-column grid for Available Tools ONLY */
+@media screen and (max-width: 767px) {
+  .available-tools-wrapper .collection-list {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 10px !important;
+  }
+  
+  .available-tools-wrapper .collection-card {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+  .available-tools-wrapper .collection-card.w-col.w-col-4 {
+    flex: none !important;
+    width: 33.33% !important;
+  }
+  
+  .available-tools-wrapper .collection-image {
+    width: 100% !important;
+    height: auto !important;
+    object-fit: contain !important;
+    max-height: 100px !important;
+  }
+  
+  .available-tools-wrapper .collection-block p {
+    font-size: 10px !important;
+    text-align: center !important;
+    line-height: 1.2 !important;
+  }
+  
+  .available-tools-wrapper .collection-card a {
+    padding: 5px !important;
+  }
+}
+
+/* Tablet - Keep 3-column grid */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .available-tools-wrapper .collection-list {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 15px !important;
+  }
+}
